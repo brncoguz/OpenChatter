@@ -1,13 +1,11 @@
+import os
+
 from anthropic import Anthropic
 
-# Load environment variables
-from helper import load_env
-load_env()
-
-client = Anthropic(
-    # defaults to os.environ.get("ANTHROPIC_API_KEY")
-    api_key="my_api_key",
-)
+api_key = os.getenv("ANTHROPIC_API_KEY")
+if not api_key:
+    raise ValueError("API key not found. Please set the ANTHROPIC_API_KEY environment variable.")
+client = Anthropic(api_key=api_key)
 
 MODEL_NAME="claude-3-5-sonnet-20241022"
 
