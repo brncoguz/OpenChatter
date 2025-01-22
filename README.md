@@ -11,6 +11,8 @@ Installation:
 - cd very_simple_chatbot
 - pip install -r requirements.txt
 - export ANTHROPIC_API_KEY=your_api_key
+
+Usage:
 - python bot.py
 - *Type your messages, and the chatbot will respond. Type 'quit' to exit*
 
