@@ -1,4 +1,4 @@
-# Very Simple Chatbot
+# OpenChatter - Very Simple Chatbot
 
 A minimalistic chatbot built with Anthropics’ API, designed for basic text-based conversations in the terminal.
 
