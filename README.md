@@ -7,8 +7,8 @@ Features:
 - Easy-to-use interface with a quit command to exit.
 
 Installation:
-- `git clone https://github.com/yourusername/very_simple_chatbot.git`
-- `cd very_simple_chatbot`
+- `git clone https://github.com/brncoguz/OpenChatter.git`
+- `cd OpenChatter`
 - `pip install -r requirements.txt`
 - `export ANTHROPIC_API_KEY=your_api_key`
 
